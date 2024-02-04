@@ -2,7 +2,13 @@
 def find_armstrong_numbers(numbers):
 
     armstrongs = []
+    num_list = []
 
+    if type(numbers) == int:
+        num_list.append(numbers)
+        numbers = num_list
+
+      
     for num in numbers:
 
         if num < 10:
