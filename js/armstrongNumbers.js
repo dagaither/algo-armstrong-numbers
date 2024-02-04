@@ -1,8 +1,8 @@
 // How can you make this more scalable and reusable later?
 
-exports.findArmstrongNumbers = function(numbers) {
+// exports.findArmstrongNumbers = function(numbers) {
 
-};
+// };
 
 function findArmstrongNumbers(numbers) {
     const armstrongs = [];
@@ -26,6 +26,8 @@ function findArmstrongNumbers(numbers) {
             }
         }
     }
-
     return armstrongs;
+
 }
+
+module.exports = findArmstrongNumbers;
