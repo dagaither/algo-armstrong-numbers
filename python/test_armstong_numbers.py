@@ -1,8 +1,8 @@
 from armstrong_numbers import find_armstrong_numbers
 import pytest
 
-# def test_01_zero():
-#     assert find_armstrong_numbers(0) == 0 
+def test_01_zero():
+    assert find_armstrong_numbers(0) == [0] 
 
 def test_02_zero_to_eight():
     assert find_armstrong_numbers(list(range(0, 8))) == [0, 1, 2, 3, 4, 5, 6, 7]

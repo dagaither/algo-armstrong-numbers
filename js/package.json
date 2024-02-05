@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "jest": "^29.7.0",
+    "shallow-equal": "^3.1.0"
+  },
+  "name": "js",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "armstrongNumbers.js",
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
